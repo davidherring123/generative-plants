@@ -1,0 +1,24 @@
+.typed {
+    overflow: hidden;
+    letter-spacing: .15em;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 2.5s steps(30,end);
+    animation-fill-mode: forwards;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+.blinking {
+    animation: blinking .75s infinite;
+    animation-delay: 2.5s;
+}
+  
+@keyframes blinking {
+    0% {opacity: 0}
+    50% {opacity: 1}
+    100% {opacity: 0}
+}
