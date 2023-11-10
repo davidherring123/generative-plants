@@ -7,7 +7,7 @@ function App() {
     <>
       <div className='grid justify-center content-center h-40 text-2xl'>
         <div className='flex'>
-          <div className='text-center typed'>welcome to safety</div><div className='blinking'>_</div>
+          <div className='text-center typed'>welcome home</div><div className='blinking'>_</div>
         </div>
       </div>
       <Sketch/>
